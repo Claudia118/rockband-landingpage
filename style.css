@@ -86,13 +86,15 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: rgb(69,69,69);
-    background: linear-gradient(90deg, rgba(69,69,69,1) 28%, rgba(183,183,183,1) 70%, rgba(232,232,232,1) 100%);
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: #070707;
 }
 
 .navbar_links:hover {
-    color: #E8E8E8;
+    color: #dd1818;
     transition: all 0.3s ease;
 }
 
@@ -210,14 +212,35 @@
 }
 
 .hero_heading {
-    font-size: 5rem;
+    font-size: 6rem;
     margin-bottom: 24px;
     color: #E8E8E8;
 }
 
+.hero_heading span{
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+}
+
+.hero_description{
+    font-size: 3rem;
+    color: #dd1818;
+}
+
+.highlight{
+    border-bottom:  4px solid rgba(241,62,2,1);
+}
 @media screen and (max-width: 768px) {
     .hero_heading {
         font-size: 3rem;
     }
-   
+   .hero_description{
+    font-size: 2rem;
+   }
 }
