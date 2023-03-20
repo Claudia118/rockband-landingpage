@@ -373,7 +373,7 @@
 .merch h1 { 
     color: #fff;
     margin-bottom: 5rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .merch_wrapper {
@@ -384,17 +384,25 @@
 
 .merch_card {
     margin: 10px;
-    height: 400px;
+    height: 350px;
     width: 250px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
-    background-image: url("https://images.unsplash.com/photo-1542208998-f6dbbb27a72f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    color: #dd1818;
+    background-image: url("https://images.unsplash.com/photo-1643253308118-74d0d7ffdeeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGdyZXklMjAlMjBjZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
     transition: 0.3s ease-in;
+    background-size: cover;
 }
 
 .merch_card:nth-child(2) {
+    background-image: url("https://images.unsplash.com/photo-1642377099024-fae1bd57f26f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cm9jayUyMG11c2ljJTIwdGFwZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+}
 
+.merch_card:nth-child(3) {
+    background-image: url("https://images.unsplash.com/photo-1601066525716-3cca33c6d4c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fG11c2ljJTIwbHB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+.merch_card:nth-child(4){
+    background-image: url("https://images.unsplash.com/photo-1542592370386-0205ac4f39f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
 }
