@@ -10,7 +10,7 @@ I created this fake rockband landing page.
 [rockban-landing-page](https://claudia118.github.io/rockband-landingpage/)
 
 **Website Screenshot**
-![websitet](rockband-landingpage/image/website.jpg)
+![websitet](image/website.jng)
 
 ### Images i used and url 
 - Header img
