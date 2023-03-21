@@ -6,6 +6,7 @@ I created this fake rockband landing page.
 - CSS
 - JAVASCRIPT
 
+**Landing page Link**
 [rockban-landing-page](https://claudia118.github.io/rockband-landingpage/)
 
 
