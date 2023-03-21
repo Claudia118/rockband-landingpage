@@ -6,6 +6,9 @@ I created this fake rockband landing page.
 - CSS
 - JAVASCRIPT
 
+[rockban-landing-page](https://claudia118.github.io/rockband-landingpage/)
+
+
 ### Images i used and url 
 - Header img
 Photo by <a href="https://unsplash.com/pt-br/@franky4fingers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aleksandr Surnin</a> on <a href="https://unsplash.com/s/photos/rockband?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
